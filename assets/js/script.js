@@ -49,12 +49,12 @@ function topFunction() {
     if ($(window).scrollTop() > 142) {
       $('.navbar-container').addClass('navbar-fixed');
       $('#blogcontainer').css("padding-top", "47px")
-      $('#background-overlay-main').css("opacity", "0.9")
+      $('#background-overlay-main').css("background", "black")
     }
     if ($(window).scrollTop() < 143) {
       $('.navbar-container').removeClass('navbar-fixed');
       $('#blogcontainer').css("padding-top", "0px")
-      $('#background-overlay-main').css("opacity", "0.8")
+      $('#background-overlay-main').css("background", "white")
     }
   });
 
