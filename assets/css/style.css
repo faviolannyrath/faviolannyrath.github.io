@@ -38,7 +38,7 @@ body {
 	display: block;
 	margin: 0 auto;
 	width: 95%;
-	position: relative;
+	position: fixed;
 	top: 50%;
 	left: 25%;
 	transform: translateY(40%);
