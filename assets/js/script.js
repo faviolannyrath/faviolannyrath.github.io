@@ -9,13 +9,13 @@ function scrollFunction() {
     } else {
         document.getElementById("top").style.display = "none";
     }
-}
+};
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-}
+};
   
   $('#button').click(function() {
     window.location.href = "https://faviolannyrath.github.io/indexhome.html";
