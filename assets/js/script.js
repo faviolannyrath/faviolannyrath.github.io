@@ -2,7 +2,7 @@
 $(document).ready(function() {
   
   $('#button').click(function() {
-    window.location.replace('https://faviolannyrath.github.io/indexhome.html');
+    window.location.href = "https://faviolannyrath.github.io/indexhome.html";
 });
 
   $('#gmail').click(function() {
