@@ -1,6 +1,11 @@
   
 $(document).ready(function() {
   
+  $('#button').click(function() {
+    window.location.href = 'https://faviolannyrath.github.io/indexhome.html';
+    return false;
+});
+
   $(window).scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the 
@@ -15,4 +20,6 @@ $(document).ready(function() {
       $('#blogcontainer').css("padding-top", "0px")
     }
   });
+
+
 });

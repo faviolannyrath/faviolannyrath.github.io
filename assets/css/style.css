@@ -97,6 +97,10 @@ body {
 	cursor: pointer;
 }
 
+#button:hover {
+	background-color: #ff999b;
+}
+
 .icon {
 	height: 30px;
 	padding: 0px 8px 0px 8px;
