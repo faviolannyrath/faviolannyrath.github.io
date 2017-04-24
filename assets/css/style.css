@@ -267,9 +267,12 @@ input[type=text] {
     color: black;
 }
 
-#japan {
+#blogtitle {
 	position: absolute;
-    height: 800px;
+}
+
+#blogphoto {
+	position: absolute;
 }
 
 
