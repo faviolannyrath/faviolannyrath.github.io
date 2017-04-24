@@ -3,32 +3,26 @@ $(document).ready(function() {
   
   $('#button').click(function() {
     window.location.replace('https://faviolannyrath.github.io/indexhome.html');
-    replace false;
 });
 
   $('#gmail').click(function() {
     window.location.href = "mailto:undergraduatenomad@gmail.com";
-    replace false;
 });
 
   $('#facebook').click(function() {
     window.location.href = "https://www.facebook.com/faviola.rath";
-    replace false;
 });
 
   $('#twitter').click(function() {
     window.location.href = "https://twitter.com/faviolannyrath";
-    replace false;
 });
 
   $('#instagram').click(function() {
     window.location.href = "https://www.instagram.com/undergradnomad/";
-    replace false;
 });
 
   $('#linkedin').click(function() {
     window.location.href = "https://www.linkedin.com/in/faviolannyrath/";
-    replace false;
 });
 
   $(window).scroll(function () {
