@@ -39,7 +39,7 @@ body {
 	margin: 0 auto;
 	width: 95%;
 	position: fixed;
-	
+	transform: translateY(40%);
 	text-align: center;
 }
 
