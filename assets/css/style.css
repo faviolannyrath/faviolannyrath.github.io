@@ -39,8 +39,6 @@ body {
 	margin: 0 auto;
 	width: 95%;
 	position: relative;
-	top: 50%;
-	left: 25%;
 	transform: translateY(40%);
 	text-align: center;
 }
