@@ -22,7 +22,7 @@ $(document).ready(function() {
 });
 
   $('#linkedin').click(function() {
-    window.location.href = "https://www.linkedin.com/in/faviolannyrath/";
+    window.open("https://www.linkedin.com/in/faviolannyrath/");
 });
 
   $(window).scroll(function () {
