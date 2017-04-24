@@ -2,8 +2,7 @@
 $(document).ready(function() {
   
   $('#button').click(function() {
-    window.location.href = "https://faviolannyrath.github.io/indexhome.html";
-    return false;
+    window.location.replace('https://faviolannyrath.github.io/indexhome.html');
 });
 
   $(window).scroll(function () {
