@@ -5,6 +5,26 @@ $(document).ready(function() {
     window.location.replace('https://faviolannyrath.github.io/indexhome.html');
 });
 
+  $('#gmail').click(function() {
+    window.location.href = "mailto:undergraduatenomad@gmail.com";
+});
+
+  $('#facebook').click(function() {
+    window.location.href = "https://www.facebook.com/faviola.rath";
+});
+
+  $('#twitter').click(function() {
+    window.location.href = "https://twitter.com/faviolannyrath";
+});
+
+  $('#instagram').click(function() {
+    window.location.href = "https://www.instagram.com/undergradnomad/";
+});
+
+  $('#linkedin').click(function() {
+    window.location.href = "https://www.linkedin.com/in/faviolannyrath/";
+});
+
   $(window).scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the 
