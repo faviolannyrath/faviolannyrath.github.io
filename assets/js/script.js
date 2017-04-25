@@ -24,6 +24,10 @@ function topFunction() {
 
 });
 
+$('#banner').click(function() {
+    window.location.href = "https://faviolannyrath.github.io/home.html";
+});
+
   $('#button').click(function() {
     window.location.href = "https://faviolannyrath.github.io/home.html";
 });
