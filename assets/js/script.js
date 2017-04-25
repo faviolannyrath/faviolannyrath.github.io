@@ -63,5 +63,14 @@ function topFunction() {
     }
   });
 
+$( ".event-type-select" ).change(function() {
+  var selectedEventType = this.options[this.selectedIndex].value;
+  if (selectedEventType == "all") {
+    $('.container div').removeClass('hidden');
+  } else {
+    $('.container div').addClass('hidden');
+    $('.container div[data-eventtype="' + selectedEventType + '"]').removeClass('hidden');
+  }
+});
 
 });

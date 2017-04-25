@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<div id="wrapper">
+<head>
+	<title>Page 3 - Cafe</title>
+		<link href="https://fonts.googleapis.com/css?family=Amatica+SC:700|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script:400,700|Satisfy|Shadows+Into+Light+Two" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+    </script> 
+		<script src="assets/js/script.js"></script>
+</head>
+<body>
+
+<!--Background Image-->
+	<img class="background" src="assets/img/background.jpg">
+
+<!--Background Overlay-->
+	<div id="background-overlay-main"></div>
+
+<!--Title Container-->
+	<div id="title-container">
+		<div id="banner">
+			UNDERGRAD NOMAD	
+		</div>
+	</div>	
+<!--navigation buttons-->
+	<center><div class="navbar-container">
+  		<div class="dropdown">
+    		<button class="dropbtn">TRAVEL</button>
+    			<div class="dropdown-content">
+     				<a href="#">Hawaii</a>
+     				<a href="#">Mexico</a>
+      			<a href="#">Cambodia</a>
+    			</div>
+  		</div> 
+  		<div class="dropdown">
+    		<button class="dropbtn">FOOD</button>
+    			<div class="dropdown-content">
+     				<a href="#">Recipes</a>
+     				<a href="#">Cafes</a>
+      			<a href="#">Restaurants</a>
+    			</div>	
+  		</div>
+  		<div class="dropdown">
+    		<button class="dropbtn">BEAUTY</button>
+    			<div class="dropdown-content">
+     				<a href="#">Favorites</a>
+     				<a href="#">Everyday</a>
+      				<a href="#">Glam Ups</a>
+      				<a href="#">On the Go</a>
+    			</div>
+  		</div>
+  		<div class="dropdown">
+    		<button class="dropbtn">ABOUT</button>
+    			<div class="dropdown-content">
+     				<a href="#">Me</a>
+     				<a href="#">Articles</a>
+      				<a href="#">Contact</a>
+    			</div>
+  		</div>
+  		<!--Search Button-->
+		<input type="text" name="search" placeholder="SEARCH">
+	</div></center>
+
+<!--Blog Posts-->
+
+    <div id="blogcontainer">
+      <div id="blogtitle">Cafe</div>
+      <form> Filter by
+        <select class="event-type-select">
+            <option value="all">All Locations</option>
+            <option value="california">California</option>
+            <option value="japan">Japan</option>
+            <option value="korea">Korea</option>
+          </select>
+      </form>
+        
+      <div class="container">
+            <div data-eventtype="california"><img src="assets/img/cafeanne.jpg" width="250px"></div>
+            <div data-eventtype="japan"><img class="cafeimages" src="assets/img/arabica.JPG" width="250px"></div>
+            <div data-eventtype="korea"><img src="assets/img/poopcafe.JPG" width="250px"></div>
+            <div data-eventtype="california"><img src="assets/img/cafeanne.jpg" width="250px"></div>
+            <div data-eventtype="japan"><img class="cafeimages" src="assets/img/arabica.JPG" width="250px"></div>
+            <div data-eventtype="korea"><img src="assets/img/poopcafe.JPG" width="250px"></div>
+            <div data-eventtype="california"><img src="assets/img/cafeanne.jpg" width="250px"></div>
+            <div data-eventtype="japan"><img class="cafeimages" src="assets/img/arabica.JPG" width="250px"></div>
+            <div data-eventtype="korea"><img src="assets/img/poopcafe.JPG" width="250px"></div>
+    </div>
+
+<button onclick="topFunction()" id="top" title="Go to top"><b>^</b></button>
+</body>
+</div>
+</html>

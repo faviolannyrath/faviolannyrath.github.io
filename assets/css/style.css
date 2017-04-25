@@ -314,3 +314,42 @@ input[type=text] {
     height: 47px;
     background-color: rgba(255,255,255,0.95)
 }
+
+/* INDEX3 */
+.container div {
+  width: 257px;
+  text-align: center;
+  color: white;
+  float: left;
+  transition: all 0.5s ease;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 2px;
+}
+
+.container {
+	width: 883px;
+	margin: 2px;
+	position: absolute;
+    padding: 56px;
+    float: left;
+    text-align: center;
+    left: 207px;
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+	position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 491px;
+    margin-top: 125px;
+    font-size: 26px;
+}
+
+.event-type-select {
+	font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
