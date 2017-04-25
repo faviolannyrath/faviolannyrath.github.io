@@ -335,6 +335,7 @@ input[type=text] {
   float: left;
   text-align: center;
   left: 207px;
+  top: 157px;
 }
 
 .hidden {
@@ -342,8 +343,8 @@ input[type=text] {
 }
 
 form {
-	position: relative;
-  top: 0;
+	position: absolute;
+  top: 10px;
   left: 0;
   margin-left: 491px;
   margin-top: 125px;
