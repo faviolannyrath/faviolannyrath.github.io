@@ -49,12 +49,10 @@ function topFunction() {
     if ($(window).scrollTop() > 142) {
       $('.navbar-container').addClass('navbar-fixed');
       $('#blogcontainer').css("padding-top", "47px")
-      $('#background-overlay-main').css("background", "rgba(255,255,255,0.95)")
     }
     if ($(window).scrollTop() < 143) {
       $('.navbar-container').removeClass('navbar-fixed');
       $('#blogcontainer').css("padding-top", "0px")
-      $('#background-overlay-main').css("background", "rgba(255,255,255,0.8)")
     }
   });
 
