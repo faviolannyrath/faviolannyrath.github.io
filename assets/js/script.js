@@ -53,11 +53,11 @@ function topFunction() {
       //.log to determine when you want the 
       //nav bar to stick.  
       console.log($(window).scrollTop())
-    if ($(window).scrollTop() > 142) {
+    if ($(window).scrollTop() > 133) {
       $('.navbar-container').addClass('navbar-fixed');
       $('#blogcontainer').css("margin-top", "65px")
     }
-    if ($(window).scrollTop() < 143) {
+    if ($(window).scrollTop() < 134) {
       $('.navbar-container').removeClass('navbar-fixed');
       $('#blogcontainer').css("margin-top", "0px")
     }
