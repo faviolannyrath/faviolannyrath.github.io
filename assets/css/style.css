@@ -288,8 +288,6 @@ input[type=text] {
 	top: 0;
 	left: 0;
 	max-width: 800px;
-	margin-left: 253px;
-    margin-right: 253px;
     margin-top: 87px;
 }
 
@@ -299,7 +297,10 @@ input[type=text] {
     left: 0;
     width: 800px;
     margin-top: 122px;
+    margin-left: 253px;
+    margin-right: 253px;
 }
+
 .navbar-fixed {
     top: 0;
     z-index: 100;
