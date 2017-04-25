@@ -48,11 +48,9 @@ function topFunction() {
       console.log($(window).scrollTop())
     if ($(window).scrollTop() > 142) {
       $('.navbar-container').addClass('navbar-fixed');
-      $('#blogcontainer').css("padding-top", "81px")
     }
     if ($(window).scrollTop() < 143) {
       $('.navbar-container').removeClass('navbar-fixed');
-      $('#blogcontainer').css("padding-top", "0px")
     }
   });
 
