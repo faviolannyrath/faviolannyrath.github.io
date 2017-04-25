@@ -316,6 +316,7 @@ input[type=text] {
 }
 
 /* INDEX3 */
+
 .container div {
   width: 257px;
   text-align: center;
@@ -330,10 +331,10 @@ input[type=text] {
 	width: 883px;
 	margin: 2px;
 	position: absolute;
-    padding: 56px;
-    float: left;
-    text-align: center;
-    left: 207px;
+  padding: 56px;
+  float: left;
+  text-align: center;
+  left: 207px;
 }
 
 .hidden {
@@ -342,14 +343,14 @@ input[type=text] {
 
 form {
 	position: relative;
-    top: 0;
-    left: 0;
-    margin-left: 491px;
-    margin-top: 125px;
-    font-size: 26px;
+  top: 0;
+  left: 0;
+  margin-left: 491px;
+  margin-top: 125px;
+  font-size: 26px;
 }
 
 .event-type-select {
 	font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+  font-size: 24px;
 }
