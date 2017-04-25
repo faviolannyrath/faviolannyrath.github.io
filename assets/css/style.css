@@ -132,11 +132,9 @@ body {
 	cursor: pointer;
 }
 
-#title {	
-	font-weight: 900;	
+#title {		
 	font-size: 90px;
 	font-family: 'Shadows Into Light Two', cursive;
-	letter-spacing: 2.5px;
 }
 
 /* INDEX2 */
@@ -280,7 +278,7 @@ input[type=text] {
 	left: 0;
 	width: 800px;
 	padding: 34px;
-	font-size: 57px;
+	font-size: 80px;
 	margin-left: 253px;
 	margin-right: 253px;
 	margin-top: -19px;
