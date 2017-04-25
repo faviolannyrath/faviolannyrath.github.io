@@ -263,23 +263,29 @@ input[type=text] {
  	display: inline-block;
     text-align: center;
     z-index: 0;
-    transform: translateY(70px);
     color: black;
 }
 
 #blogtitle {
 	position: absolute;
+	text-align: center;
 	top: 0;
 	left: 0;
 }
 
 #blogphoto {
 	position: absolute;
+	text-align: center;
 	top: 0;
 	left: 0;
 }
 
-
+#blogcontent {
+	position: absolute;
+	text-align: center;
+	top: 0;
+	left: 0;
+}
 .navbar-fixed {
     top: 0;
     z-index: 100;
