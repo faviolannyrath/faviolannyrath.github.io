@@ -17,6 +17,13 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
   
+  $('#top').click(function() {
+   $('html, body').animate({
+      scrollTop: 0
+   }, 100);
+
+});
+
   $('#button').click(function() {
     window.location.href = "https://faviolannyrath.github.io/indexhome.html";
 });
@@ -48,11 +55,11 @@ function topFunction() {
       console.log($(window).scrollTop())
     if ($(window).scrollTop() > 142) {
       $('.navbar-container').addClass('navbar-fixed');
-      $('#blogcontainer').css("padding-top", "75.5px")
+      $('#blogcontainer').css("margin-top", "65px")
     }
     if ($(window).scrollTop() < 143) {
       $('.navbar-container').removeClass('navbar-fixed');
-      $('#blogcontainer').css("padding-top", "0px")
+      $('#blogcontainer').css("margin-top", "0px")
     }
   });
 
