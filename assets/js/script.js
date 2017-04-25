@@ -25,7 +25,7 @@ function topFunction() {
 });
 
   $('#button').click(function() {
-    window.location.href = "https://faviolannyrath.github.io/indexhome.html";
+    window.location.href = "https://faviolannyrath.github.io/home.html";
 });
 
   $('#gmail').click(function() {
