@@ -269,10 +269,14 @@ input[type=text] {
 
 #blogtitle {
 	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 #blogphoto {
 	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 
