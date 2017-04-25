@@ -278,7 +278,7 @@ input[type=text] {
 	font-size: 57px;
 	margin-left: 253px;
 	margin-right: 253px;
-	margin-top: -29px;
+	margin-top: -27px;
 	font-family: 'Amatica SC', cursive;
 }
 
@@ -290,8 +290,7 @@ input[type=text] {
 	max-width: 800px;
 	margin-left: 253px;
     margin-right: 253px;
-    margin-top: 111px;
-
+    margin-top: 87px;
 }
 
 #blogcontent {
@@ -299,9 +298,7 @@ input[type=text] {
     top: 0;
     left: 0;
     width: 800px;
-    margin-left: 253px;
-    margin-right: 253px;
-    margin-top: 438px;
+    margin-top: 122px;
 }
 .navbar-fixed {
     top: 0;
