@@ -282,7 +282,7 @@ input[type=text] {
 	font-family: 'Amatica SC', cursive;
 }
 
-#blogphoto {
+.blogphoto {
 	position: absolute;
 	text-align: center;
 	top: 0;
