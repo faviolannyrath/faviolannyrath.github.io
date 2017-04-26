@@ -335,8 +335,8 @@ input[type=text] {
 }
 
 .container div:hover {
-  -webkit-filter: brightness(70%);
-   filter: brightness(70%);
+  -webkit-filter: brightness(40%);
+   filter: brightness(40%);
 }
 
 .container {
