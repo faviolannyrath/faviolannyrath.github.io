@@ -163,6 +163,7 @@ body {
 	font-size: 85px;
 	text-align: center;
 	width: 100%;
+  cursor: pointer;
 }
 
 .navbar-container {
